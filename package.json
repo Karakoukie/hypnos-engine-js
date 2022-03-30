@@ -1,0 +1,30 @@
+{
+  "name": "hypnos-engine-js",
+  "version": "1.0.0",
+  "description": "Javascript 3D Engine",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager .",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karakoukie/hypnos-engine-js.git"
+  },
+  "keywords": [
+    "webgl"
+  ],
+  "author": "Tristan Muller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karakoukie/hypnos-engine-js/issues"
+  },
+  "homepage": "https://github.com/Karakoukie/hypnos-engine-js#readme",
+  "devDependencies": {
+    "electron": "^17.2.0",
+    "electron-packager": "^15.4.0",
+    "jest": "^27.5.1"
+  },
+  "type": "module"
+}
