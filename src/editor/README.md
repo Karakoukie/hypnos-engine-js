@@ -1,1 +1,0 @@
-Cette application Eletron permet d'éditer des noeuds tridimensionnels au format hypnos, elle peut donc les importer et les exporter. Elle peut également générer des applications 3d hypnos web ou bureau capable de lire uniquement le contenu.
